@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "rose_gold_ingot",
+  "ingredient": {
+    "item": "minecraft:deepslate_rose_gold_ore"
+  },
+  "result": "minecraft:rose_gold_ingot"
+}

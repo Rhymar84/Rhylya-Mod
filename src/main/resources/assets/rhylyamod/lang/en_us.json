@@ -1,7 +1,15 @@
 {
   "item.rhylyamod.rose_gold_ingot": "Rose Gold Ingot",
+  "item.rhylyamod.raw_rose_gold": "Raw Rose Gold",
+  "item.rhylyamod.strawberry": "Strawberry",
+  "item.rhylyamod.banana": "Banana",
+  "item.rhylyamod.strawberry_milkshake": "Strawberry Milk",
+  "item.rhylyamod.banana_milkshake": "Banana Milk",
+  "item.rhylyamod.chocolate_milkshake": "Chocolate Milk",
 
   "block.rhylyamod.rose_gold_ore": "Rose Gold Ore",
+  "block.rhylyamod.deepslate_rose_gold_ore": "Deepslate Rose Gold Ore",
+  "block.rhylyamod.rose_gold_block": "Rose Gold Block",
 
   "creativetab.rhylya_tab": "Rhylya Items"
 }

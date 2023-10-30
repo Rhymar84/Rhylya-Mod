@@ -20,9 +20,18 @@ public class ModCreativeModTabs {
                             .title(Component.translatable("creativetab.rhylya_tab"))
 
                             .displayItems((pParameters, pOutput) -> {
+                                pOutput.accept(ModItems.RAW_ROSE_GOLD.get());
                                 pOutput.accept(ModItems.ROSE_GOLD_INGOT.get());
 
                                 pOutput.accept(ModBlocks.ROSE_GOLD_ORE.get());
+                                pOutput.accept(ModBlocks.DEEPSLATE_ROSE_GOLD_ORE.get());
+                                pOutput.accept(ModBlocks.ROSE_GOLD_BLOCK.get());
+
+                                pOutput.accept(ModItems.STRAWBERRY.get());
+                                pOutput.accept(ModItems.BANANA.get());
+                                pOutput.accept(ModItems.STRAWBERRY_MILKSHAKE.get());
+                                pOutput.accept(ModItems.BANANA_MILKSHAKE.get());
+                                pOutput.accept(ModItems.CHOCOLATE_MILKSHAKE.get());
                             })
 
                             .build());

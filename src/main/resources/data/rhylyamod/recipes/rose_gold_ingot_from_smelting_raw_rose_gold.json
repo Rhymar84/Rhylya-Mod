@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "rose_gold_ingot",
+  "ingredient": {
+    "item": "rhylyamod:raw_rose_gold"
+  },
+  "result": "rhylyamod:rose_gold_ingot"
+}
