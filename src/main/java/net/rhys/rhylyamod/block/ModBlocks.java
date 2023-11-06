@@ -6,12 +6,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rhys.rhylyamod.RhylyaMod;
+import net.rhys.rhylyamod.block.custom.IceChestBlock;
 import net.rhys.rhylyamod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -31,6 +33,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ROSE_GOLD_BLOCK = registerBlock("rose_gold_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).strength(7F, 7F)));
+
+    public static final RegistryObject<Block> ICE_CHEST = registerBlock("ice_chest",
+            () -> new IceChestBlock(BlockBehaviour.Properties.copy(Blocks.ICE),
+                    () -> { return BlockEntityType.CHEST;
+            }));
 
     // END OF BLOCKS
 

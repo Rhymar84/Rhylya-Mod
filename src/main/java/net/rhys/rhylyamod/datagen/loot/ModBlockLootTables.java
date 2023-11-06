@@ -19,6 +19,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
+        this.dropSelf(ModBlocks.ICE_CHEST.get());
 
         this.add(ModBlocks.ROSE_GOLD_ORE.get(), block -> createOreDrop(ModBlocks.ROSE_GOLD_ORE.get(), ModItems.RAW_ROSE_GOLD.get()));
         this.add(ModBlocks.DEEPSLATE_ROSE_GOLD_ORE.get(), block -> createOreDrop(ModBlocks.DEEPSLATE_ROSE_GOLD_ORE.get(), ModItems.RAW_ROSE_GOLD.get()));

@@ -30,6 +30,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.ROSE_GOLD_ORE.get());
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.DEEPSLATE_ROSE_GOLD_ORE.get());
+        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL).add(ModBlocks.ROSE_GOLD_BLOCK.get());
 
     }
 }

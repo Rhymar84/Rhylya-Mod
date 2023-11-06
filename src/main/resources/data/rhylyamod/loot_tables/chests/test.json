@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "rhylyamod:rose_gold_ingot"
+        }
+      ]
+    }
+  ]
+}
