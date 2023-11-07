@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rhys.rhylyamod.block.ModBlocks;
+import net.rhys.rhylyamod.block.entity.ModBlockEntities;
 import net.rhys.rhylyamod.item.ModCreativeModTabs;
 import net.rhys.rhylyamod.item.ModItems;
 import org.slf4j.Logger;
@@ -32,6 +33,7 @@ public class RhylyaMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

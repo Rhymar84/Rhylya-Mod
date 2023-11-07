@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rhys.rhylyamod.RhylyaMod;
 import net.rhys.rhylyamod.block.custom.IceChestBlock;
+import net.rhys.rhylyamod.block.entity.ModBlockEntities;
 import net.rhys.rhylyamod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -35,9 +36,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).strength(7F, 7F)));
 
     public static final RegistryObject<Block> ICE_CHEST = registerBlock("ice_chest",
-            () -> new IceChestBlock(BlockBehaviour.Properties.copy(Blocks.ICE),
-                    () -> { return BlockEntityType.CHEST;
-            }));
+            () -> new IceChestBlock(BlockBehaviour.Properties.copy(Blocks.ICE)));
 
     // END OF BLOCKS
 
